@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 48%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: 600px;
+}
+
+.opcionSombraUno {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.opcionSombraDos {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
